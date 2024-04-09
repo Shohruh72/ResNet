@@ -1,9 +1,9 @@
 # ResNet
 ResNet re-implementation using PyTorch
 # Steps
-** Configure imagenet path by changing data_dir in main.py
-** bash ./main.sh $ --train for training model, $ is number of GPUs
-** python main.py --test for testing
+* Configure imagenet path by changing data_dir in main.py
+* bash ./main.sh $ --train for training model, $ is number of GPUs
+* python main.py --test for testing
 ### Results
 
 | Version   | Top@1 | Top@5 | Params | FLOPS | Pretrained weights |
