@@ -1,17 +1,17 @@
 import cv2
 import math
 import random
+import numpy as np
+from PIL import Image
 from os import environ
 from platform import system
 
-import numpy as np
 import torch
 import torch.nn.functional as F
-from PIL import Image
 
 
 def lr(args):
-    return 0.256 * args.batch_size * args.world_size / 4096
+    return 0.1 * args.batch_size * args.world_size / 4096
 
 
 def reduce_tensor(tensor, n):
