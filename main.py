@@ -210,8 +210,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    # import timm
-    # model1 = nn.resnet('152', 1000)
-    # model2 = timm.create_model('resnet152.a1_in1k', pretrained=True)
-    # nn.copy_weights(model1, model2)
